@@ -1,0 +1,25 @@
+#!/bin/ksh
+# A simple shell script to execute a command a bunch of times
+# Andrew Grimshaw
+# December 22, 1998
+
+function usage 
+{
+	$PERR "usage: repeat num_times command"
+	exit 1
+}
+
+if (( $# != 2 ))
+then
+	usage
+fi
+
+
+i=0
+while (( $i < $1 ))
+do
+echo $i $2
+$2
+i=$(( $i + 1 ))
+done
+

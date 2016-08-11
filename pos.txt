@@ -1,0 +1,22 @@
+POSIX(3pm)               - Perl interface to IEEE Std 1003.1
+Tcl_GetReturnOptions(3tcl), Tcl_SetReturnOptions(3tcl), Tcl_AddErrorInfo(3tcl), Tcl_AppendObjToErrorInfo(3tcl), Tcl_AddObjErrorInfo(3tcl), Tcl_SetObjErrorCode(3tcl), Tcl_SetErrorCode(3tcl), Tcl_SetErrorCodeVA(3tcl), Tcl_PosixError(3tcl), Tcl_LogCommandInfo(3tcl) - retrieve or record information about errors and other return options
+acl(3)                   - introduction to the POSIX.1e ACL security API
+grantpt(3), posix_openpt(3), ptsname(3), unlockpt(3) - pseudo-terminal access functions
+locale(3pm)              - Perl pragma to use or avoid POSIX locales for built-in operations
+madvise(2), posix_madvise(2) - give advice about use of memory
+plockstat(1)             - front-end to DTrace to print statistics about POSIX mutexes and read/write locks
+posix_memalign(3)        - aligned memory allocation
+posix_spawn(2), posix_spawn posix_spawnp(2) - spawn a process
+posix_spawn_file_actions_addclose(3), posix_spawn_file_actions_addclose posix_spawn_file_actions_addopen(3) - add open or close actions to a posix_spawn_file_actions_t
+posix_spawn_file_actions_destroy(3), posix_spawn_file_actions_init posix_spawn_file_actions_destroy(3) - initialize or destroy spawn file actions objects
+posix_spawnattr_destroy(3), posix_spawnattr_init posix_spawnattr_destroy(3) - initialize or destroy a spawn attributes object
+posix_spawnattr_getbinpref_np(3), posix_spawnattr_setbinpref_np posix_spawnattr_getbinpref_np(3) - set or get the spawn-binpref attribute on a posix_spawnattr_t
+posix_spawnattr_getflags(3), posix_spawnattr_setflags posix_spawnattr_getflags(3) - get or set flags on a posix_spawnattr_t
+posix_spawnattr_getpgroup(3), posix_spawnattr_setpgroup posix_spawnattr_getpgroup(3) - set or get the spawn-pgroup attribute on a posix_spawnattr_t
+posix_spawnattr_getsigdefault(3), posix_spawnattr_setsigdefault posix_spawnattr_getsigdefault(3) - set or get the spawn-sigdefault attribute on a posix_spawnattr_t
+posix_spawnattr_getsigmask(3), posix_spawnattr_setsigmask posix_spawnattr_getsigmask(3) - set or get the spawn-sigmask attribute on a posix_spawnattr_t
+posix_spawnattr_setexceptionports_np(3), posix_spawnattr_setspecialport_np posix_spawnattr_setexceptionports_np(3) - set special ports on a posix_spawnattr_t
+pselect(3)               - synchronous I/O multiplexing a la POSIX.1g
+pthread(3)               - POSIX thread functions
+re_format(7)             - POSIX 1003.2 regular expressions
+time2posix(3), posix2time(3) - convert seconds since the Epoch
